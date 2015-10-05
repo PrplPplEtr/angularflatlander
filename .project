@@ -14,16 +14,4 @@
 	<natures>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>Angular.js</name>
-			<type>1</type>
-			<location>/Users/PrplPplEtr/GitHub/angular.js/src/Angular.js</location>
-		</link>
-		<link>
-			<name>css/bootstrap.min.css</name>
-			<type>1</type>
-			<location>/Users/PrplPplEtr/GitHub/bootstrap/dist/css/bootstrap.min.css</location>
-		</link>
-	</linkedResources>
 </projectDescription>
