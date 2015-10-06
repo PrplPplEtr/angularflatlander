@@ -6,9 +6,15 @@
 <title>Insert title here</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
 </head>
-<body>
+<body ng-controller="StoreController as store">
+	<div  ng-repeat="product in store.products" ng-hide="product.soldOut">
+	<h1>{{product.name}}</h1>
+	<h2>${{product.price}}</h2>
+	<p>{{product.description}}</p>
+	<button ng-show="product.canPurchase">Add to Cart</button>
+	</div>
 	<script type="text/javascript" src="angular/angular.min.js"></script>
-	<script type="text/javascript" src="app.js"></script> 
-<p>{{"hello" + " you"}}</p>
+	<script type="text/javascript" src="app.js"></script>
+	
 </body>
 </html>
